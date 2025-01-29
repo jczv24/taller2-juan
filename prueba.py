@@ -15,3 +15,5 @@ mu = 0
 sigma = 1
 valores = np.random.normal(loc=mu, scale=sigma, size=1000)
 print(valores)
+
+w = x*y
