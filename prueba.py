@@ -17,3 +17,9 @@ valores = np.random.normal(loc=mu, scale=sigma, size=1000)
 print(valores)
 
 w = x*y
+
+#cambios de Daniela
+media = np.mean(valores)
+desviacion = np.std(valores)
+print(f"Media de los valores: {media}")
+print(f"Desviación estándar de los valores: {desviacion}")
